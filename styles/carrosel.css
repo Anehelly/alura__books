@@ -5,7 +5,8 @@
     --azul: #002F52;
     --fonte-principal: "Poppins", sans-serif;
 
-}.carrosel__titulo {
+}
+.carrosel__titulo {
     color: var(--laranja);
     background-color: var(--branco);
     text-align: center;
