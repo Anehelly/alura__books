@@ -2,8 +2,9 @@
     --cor-de-fundo: #EBECEE;
     --branco: #FFFFFF;
     --laranja: #EB9800;
-    --azul: #002F52;
+    --preto: #000000;
     --fonte-principal: "Poppins", sans-serif;
+    --fonte-secudaria: "Josefin Sans", sans-serif;
 
 }
 .cabecalho__menu-hamburguer{
@@ -65,4 +66,49 @@
 
 .lista-menu__link:hover{
     color: var(--laranja) ;
+}
+
+.container__titulo{
+    display: none;
+}
+
+.opcoes{
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .container__titulo {
+        font-family: var(--fonte-secudaria);
+        font-size: 30px;
+        font-weight: 400;  
+        display: block;             
+    }
+
+    .container__titulo--negrito{
+        font-family: var(--fonte-secudaria);
+        font-weight: 700;
+    }
+
+    .opcoes{
+        display: flex;
+    }
+
+    .opcoes__item{
+        padding: 0 1em;
+        text-transform: uppercase;
+        list-style-type: none;
+    }
+
+    .opcoes__link{
+        text-decoration: none;
+        color: var(--preto);       
+    }
+
+    .container__imagem-transparente{
+        display: none;
+    }
+
+    .cabecalho__menu-hamburguer{
+        display: none;
+    }
 }
