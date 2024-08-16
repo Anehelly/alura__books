@@ -1,10 +1,3 @@
-:root{
-    --cor-de-fundo: #EBECEE;
-    --branco: #FFFFFF;
-    --laranja: #EB9800;
-    --fonte-principal: "Poppins", sans-serif;
-
-}
 
 .topicos{
     background-image: linear-gradient(to right, #002F52,#326589);
@@ -44,5 +37,11 @@
 
     .topicos__link {
         font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .tópicos {
+        padding: 3em 30vw;
     }
 }

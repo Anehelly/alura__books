@@ -1,11 +1,4 @@
-:root{
-    --cor-de-fundo: #EBECEE;
-    --branco: #FFFFFF;
-    --laranja: #EB9800;
-    --azul: #002F52;
-    --fonte-principal: "Poppins", sans-serif;
 
-}
 .contato{
     background-color: var(--branco);
     padding: 1em;
@@ -59,3 +52,8 @@
     }
 }
 
+@media screen and (min-width: 1728px) {
+    .contato {
+        padding: 3em 20vw;
+    }
+}
